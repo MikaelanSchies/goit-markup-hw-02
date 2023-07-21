@@ -1,9 +1,10 @@
 .body {
-  color: var(--navyblue, #2e2f42);
+  color: #434455;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
+  background-color: #ffffff;
 }
 
 /*header*/
@@ -200,6 +201,8 @@
   font-weight: 400;
 }
 
+/*footer*/
+
 .footer-dark-bg {
   background: var(--navyblue, #2e2f42);
   width: 1440px;
@@ -227,6 +230,40 @@
 
 .footer-dark-bg-text {
   color: var(--cloud, #f4f4fd);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/*main portfolio*/
+
+.body-portfolio {
+  width: 1440px;
+  height: 2076px;
+  color: #434455;
+}
+
+.project-card {
+  display: flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--white, #fff);
+}
+
+.project-card-text1 {
+  color: var(--navyblue, #2e2f42);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.project-card-text2 {
+  color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
