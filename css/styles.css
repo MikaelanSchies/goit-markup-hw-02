@@ -22,13 +22,20 @@
   letter-spacing: 0.03em;
 }
 
-.link:hover {
+.link {
   text-decoration: none;
-  color: #404bbf;
+}
+
+.link:hover {
+    color: #404bbf;
+}
+
+.link:focus {
+    color: #404bbf;
 }
 
 .logo {
-  color: var(--iris, #4d5ae5);
+  color: #4d5ae5;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -51,7 +58,7 @@
   list-style: none;
 }
 
-.navigation-list {
+.navigation {
   color: #2e2f42
   font-family: Roboto;
   font-size: 16px;
@@ -66,7 +73,7 @@
 }
 
 .email {
-  color: var(--slate, #434455);
+  color: #434455;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -76,7 +83,7 @@
 }
 
 .phone {
-  color: var(--slate, #434455);
+  color: #434455;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -104,16 +111,19 @@
   letter-spacing: 0.02em;
 }
 
-.main-button:hover {
-  background: var(--iris, #4d5ae5);
+.main-button {
+  background: #4D5AE5;
   font-family:"Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color:#404BBF;
   cursor: pointer;
+}
+
+.main-button:hover {
+    background-color:#404BBF;
 }
 
 /*Друга секція основного контенту*/
@@ -195,7 +205,7 @@
 }
 
 .logo-web {
-  color: var(--iris, #4d5ae5);
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -207,15 +217,7 @@
 }
 
 .logo-studio {
-  color: var(--cloud, #f4f4fd);
-  font-family:"Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  justify-content: center;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .footer-dark-bg-text {
@@ -236,16 +238,23 @@
   font-family: "Roboto", sans-serif;
 }
 
-.first-item-header:hover {
+.first-item-header {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:  #2e2f42;
-    color: #404bbf
+    color: #2e2f42;
 }
 
-.main-button-portfolio:hover {
+.first-item-header:hover {
+    color: #404bbf;
+}
+
+..first-item-header:focus {
+    color: #404bbf;
+}
+
+.main-button-portfolio {
     line-height: 1.5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -253,9 +262,47 @@
     letter-spacing: 0.04em;
     color:  #4d5ae5;
     background-color: #F4F4FD;
+    cursor: pointer;
+}
+
+.main-button-portfolio:hover {
     color: #FFFFFF;
     background-color: #404BBF;
-    cursor: pointer;
+}
+
+.main-button-portfolio:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.email-portfolio {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #434455;
+}
+
+.email-portfolio:hover {
+    color: #404bbf;
+}
+
+.email-portfolio:focus {
+    color: #404bbf;
+}
+
+.phone-portfolio {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #434455;
+}
+
+.phone-portfolio:hover {
+    color: #404bbf;
+}
+
+.phone-portfolio:focus {
+    color: #404bbf;
 }
 
 .project-card {
