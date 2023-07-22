@@ -30,10 +30,21 @@
 .logo {
   color: var(--iris, #4d5ae5);
   text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .accent {
   color: var(--navyblue, #2e2f42);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .list {
@@ -70,6 +81,8 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*main*/
@@ -220,6 +233,29 @@
 
 .body-portfolio {
   color: #434455;
+  font-family: "Roboto", sans-serif;
+}
+
+.first-item-header:hover {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #2e2f42;
+    color: #404bbf
+}
+
+.main-button-portfolio:hover {
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color:  #4d5ae5;
+    background-color: #F4F4FD;
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
 }
 
 .project-card {
@@ -228,18 +264,22 @@
   background: var(--white, #fff);
 }
 
-.project-card-text1 {
-  color: var(--navyblue, #2e2f42);
+.project-text {
+  color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.project-card-text2 {
+.project-card-text {
   color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
