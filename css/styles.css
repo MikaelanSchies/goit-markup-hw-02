@@ -330,7 +330,6 @@
 }
 
 .project-text {
-  color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
@@ -339,12 +338,19 @@
   letter-spacing: 0.02em;
 }
 
+.project-text:root {
+  color: #2e2f42;
+}
+
 .project-card-text {
-  color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.project-card-text:root {
+  color: #434455;
 }
