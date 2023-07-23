@@ -76,7 +76,7 @@
   font-style: normal;
 }
 
-.email {
+.contacts {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
@@ -86,37 +86,15 @@
   letter-spacing: 0.02em;
 }
 
-.email:hover {
+.contacts:hover {
   color: #404bbf;
 }
 
-.email:focus {
+.contacts:focus {
   color: #404bbf;
 }
 
-.email:root {
-  color: #434455;
-}
-
-.phone {
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.phone:hover {
-  color: #404bbf;
-}
-
-.phone:focus {
-  color: #404bbf;
-}
-
-.phone:root {
+.contacts:root {
   color: #434455;
 }
 
