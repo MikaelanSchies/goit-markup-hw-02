@@ -256,16 +256,16 @@
   color: #2e2f42;
 }
 
-.first-item-header:root {
-  color: #2e2f42;
-}
-
 .first-item-header:hover {
   color: #404bbf;
 }
 
 ..first-item-header:focus {
   color: #404bbf;
+}
+
+.first-item-header:root {
+  color: #2e2f42;
 }
 
 .main-button-portfolio {
