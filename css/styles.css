@@ -323,12 +323,6 @@
   color: #404bbf;
 }
 
-.project-card {
-  padding-bottom: 0px;
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #fff);
-}
-
 .project-text {
   font-family: Roboto;
   font-size: 20px;
